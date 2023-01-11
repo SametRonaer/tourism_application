@@ -13,6 +13,8 @@
 		1C6BB2CC2930B18E00042567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BB2CA2930B18E00042567 /* Main.storyboard */; };
 		1C6BB2CE2930B18F00042567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BB2CD2930B18F00042567 /* Assets.xcassets */; };
 		1C6BB2D12930B18F00042567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BB2CF2930B18F00042567 /* LaunchScreen.storyboard */; };
+		1C6BB2D92930B73600042567 /* AuthStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BB2D82930B73600042567 /* AuthStoryBoard.storyboard */; };
+		1C6BB2DB2930BE5200042567 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BB2DA2930BE5200042567 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1C6BB2CD2930B18F00042567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C6BB2D02930B18F00042567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C6BB2D22930B18F00042567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6BB2D82930B73600042567 /* AuthStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthStoryBoard.storyboard; sourceTree = "<group>"; };
+		1C6BB2DA2930BE5200042567 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		1C6BB2C32930B18E00042567 /* TourismApplication */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BB2DA2930BE5200042567 /* LoginVC.swift */,
 				1C6BB2C42930B18E00042567 /* AppDelegate.swift */,
 				1C6BB2C62930B18E00042567 /* SceneDelegate.swift */,
 				1C6BB2C82930B18E00042567 /* ViewController.swift */,
 				1C6BB2CA2930B18E00042567 /* Main.storyboard */,
+				1C6BB2D82930B73600042567 /* AuthStoryBoard.storyboard */,
 				1C6BB2CD2930B18F00042567 /* Assets.xcassets */,
 				1C6BB2CF2930B18F00042567 /* LaunchScreen.storyboard */,
 				1C6BB2D22930B18F00042567 /* Info.plist */,
@@ -128,6 +134,7 @@
 				1C6BB2D12930B18F00042567 /* LaunchScreen.storyboard in Resources */,
 				1C6BB2CE2930B18F00042567 /* Assets.xcassets in Resources */,
 				1C6BB2CC2930B18E00042567 /* Main.storyboard in Resources */,
+				1C6BB2D92930B73600042567 /* AuthStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			files = (
 				1C6BB2C92930B18E00042567 /* ViewController.swift in Sources */,
 				1C6BB2C52930B18E00042567 /* AppDelegate.swift in Sources */,
+				1C6BB2DB2930BE5200042567 /* LoginVC.swift in Sources */,
 				1C6BB2C72930B18E00042567 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
